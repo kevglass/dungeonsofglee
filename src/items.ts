@@ -1,4 +1,4 @@
-import { PlayerId } from "dusk-games-sdk";
+import { PlayerId } from "rune-sdk";
 import { GameState, addGameEvent } from "./logic";
 import { PlayerClass } from "./player";
 import { getActorById } from "./dungeon";

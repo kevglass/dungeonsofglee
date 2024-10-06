@@ -9,21 +9,22 @@
     "build": "npm run lint && tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives",
     "preview": "vite preview",
-    "deploy": "npm run build && dusk upload --name 'Dungeons of Glee'"
+    "deploy": "npm run build && rune upload --name 'Dungeons of Glee'",
+    "upload": "npm run build && npx rune-games-cli@latest upload"
   },
   "dependencies": {
-    "dusk-games-sdk": "^4.19.17"
+    "rune-sdk": "^4.22.1"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "eslint": "7.22.0",
-    "eslint-plugin-dusk": "^1.0.1",
+    "eslint-plugin-rune": "^1.0.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.0.2",
     "vite": "^4.3.2",
-    "vite-plugin-dusk": "^1.0.0",
+    "vite-plugin-rune": "^1.0.0",
     "vite-plugin-qrcode": "^0.2.2"
   }
 }

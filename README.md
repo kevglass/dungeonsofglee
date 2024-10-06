@@ -4,9 +4,9 @@
 
 _All game assets are licensed for use in these projects. They remain copyright of their authors._
 
-_You can find the rest of my dusk games here https://github.com/kevglass/dusk-games_
+_You can find the rest of my rune games here https://github.com/kevglass/rune-games_
 
-This is a rough hack up making using the Dusk SDK (https://dusk.gg). I wanted to see what its all about and ended up recreating one of my dungeon
+This is a rough hack up making using the Rune SDK (https://rune.ai). I wanted to see what its all about and ended up recreating one of my dungeon
 games. 
 
 I make no apology for how raw the client rendering code is - I just went for it!
@@ -33,4 +33,4 @@ Hope this can be of help to someone at some point.
 * Code - Me (cokeandcode)
 * Sounds - Various CC0 sources
 * Art - Doodle Rogue with some minor mods - https://chr15m.itch.io/doodle-rogue-tileset
-* Multiplayer Platform and Framework - https://dusk.gg
+* Multiplayer Platform and Framework - https://rune.ai
